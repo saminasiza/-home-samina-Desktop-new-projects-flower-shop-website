@@ -1,0 +1,225 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu-container {
+    background-color: rgb(187, 126, 126);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.menus {
+    display: flex;
+}
+
+.logo-photo {
+    width: 100px;
+    gap: 10px;
+    padding-left: 5px;
+}
+
+.item {
+    margin: 10px;
+    padding-right: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: rgb(3, 3, 3);
+}
+
+.first-container {
+    background-color: rgb(235, 217, 217);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 100px;
+}
+
+.flower-description {
+    font-size: 15px;
+    font-weight: 10px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: rgb(184, 82, 97);
+    padding: 15px 20px;
+    border: none;
+    margin-top: 30px;
+    color: white;
+    border-radius: 7px;
+}
+
+.second-container {
+    background-color: beige;
+    text-align: center;
+    padding-top: 100px;
+    height: 100vh;
+    margin-top: -145px;
+}
+
+.flower-img {
+    width: 100%;
+    margin-bottom: 0%;
+    display: block;
+}
+
+.flower-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.flower-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -80px;
+
+}
+
+.box-1 {
+    width: 240px;
+    text-align: center;
+    margin-top: +63px;
+    background: rgba(201, 52, 124, 0.15);
+    border-radius: 290px 290px 0px 0px;
+}
+
+.box-2 {
+    width: 350px;
+    text-align: center;
+    margin-top: +42px;
+    background: rgba(45, 156, 161, 0.15);
+    border-radius: 290px 290px 0px 0px;
+
+}
+
+.box-3 {
+    width: 230px;
+    text-align: center;
+    margin-top: +48px;
+    border-radius: 290px 290px 0px 0px;
+    background: rgba(70, 110, 29, 0.15);
+}
+
+.third-container {
+    text-align: center;
+    margin-top: -50px;
+    background-color: rgb(243, 221, 221);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: -100px;
+}
+
+.bonus-section {
+    text-align: left;
+    background-color: rgb(206, 190, 190);
+    flex-direction: row-reverse;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    margin-top: -50px;
+}
+
+.primary {
+    color: rgb(184, 82, 97);
+}
+
+.fifth-container {
+    background-color: beige;
+    text-align: center;
+    padding-top: 100px;
+    height: 100vh;
+    margin-top: -145px;
+}
+
+.different-flowers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.img {
+    width: 250px;
+}
+
+.sixth-container {
+    width: 83%;
+    margin: auto;
+    height: 310px;
+    flex-shrink: 0;
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -160px;
+    border-radius: 7px;
+
+
+}
+
+.common-h {
+    padding-top: 50px;
+}
+
+.email-btn {
+    background-color: white;
+    padding: 15px 20px;
+    border: none;
+    margin-top: 20px;
+    color: black;
+    border-radius: 7px;
+}
+
+.footer-container {
+    background-color: rgb(39, 38, 38);
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 80px;
+}
+
+.font-color {
+    color: white;
+}
